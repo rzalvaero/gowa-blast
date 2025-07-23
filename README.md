@@ -22,6 +22,5 @@ Script ini digunakan untuk melakukan **blast pesan WhatsApp otomatis** ke banyak
 ```bash
 .
 ├── kontak.csv           # Daftar nomor dan nama penerima
-├── blast.py             # Script utama blasting
-├── .env                 # Menyimpan kredensial rahasia
+├── script.py             # Script utama blasting
 └── README.md            # Dokumentasi ini

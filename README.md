@@ -1,34 +1,28 @@
 # 🚀 WhatsApp Blaster via Gowa API (CSV Blast)
 
 > 📡 Dibangun di atas [Gowa API](https://github.com/aldinokemal/gowa) by @aldinokemal
-Script ini digunakan untuk melakukan **blast pesan WhatsApp otomatis** ke banyak nomor menggunakan **Gowa API**, dengan metode pengambilan data nomor & nama dari file `kontak.csv` sudah di test dengan 5000 msg tidak terblokir, gokil!
+
+Script ini digunakan untuk melakukan **blast pesan WhatsApp otomatis** ke banyak nomor menggunakan **Gowa API**, dengan metode pengambilan data nomor & nama dari file `kontak.csv`.
+
+✅ Sudah dites hingga **5.000+ pesan** tanpa diblokir — gokil! 🎯
 
 ---
 
 ## 🔧 Fitur
-- ✅ Login otomatis via **OTP** tanpa scan QR
-- ✅ Kirim pesan ke ribuan nomor WA secara bertahap
-- ✅ Pesan bisa dikustomisasi nama (personalized)
-- ✅ Baca nomor dan nama dari file `.csv`
-- ✅ Gunakan API Gowa (by @aldinokemal)
 
----
-## 📦 Easy to Use
-- Pastikan kamu sudah install GOWA di localhost / VPS (https://github.com/aldinokemal/go-whatsapp-web-multidevice)
-- pip install requests pandas python-dotenv
-- python script.py
- 
-## 📦 Struktur File
-
-```bash
-.
-├── kontak.csv           # Daftar nomor dan nama penerima
-├── script.py             # Script utama blasting
-└── README.md            # Dokumentasi ini
+- ✅ Kirim pesan ke ribuan nomor WA secara bertahap (1 detik/1 msg)
+- ✅ Pesan dapat dikustomisasi berdasarkan **nama penerima**
+- ✅ Baca nomor & nama dari file `.csv`
+- ✅ Menggunakan API Gowa (by @aldinokemal)
 
 ---
 
-## 👏 Credits
+## ⚙️ Cara Pakai (Easy to Use)
 
-- Backend API by [Gowa](https://github.com/aldinokemal/gowa) — created by @aldinokemal
-- Python integration by [@rzalvaero](https://github.com/rzalvaero)
+1. **Install Gowa API** di localhost / VPS:  
+   🔗 [https://github.com/aldinokemal/go-whatsapp-web-multidevice](https://github.com/aldinokemal/go-whatsapp-web-multidevice)
+
+2. **Install dependensi Python:**
+
+   ```bash
+   pip install requests pandas python-dotenv

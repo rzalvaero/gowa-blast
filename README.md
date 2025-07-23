@@ -1,4 +1,4 @@
-# 🚀 WhatsApp Blaster via Gowa API (Login OTP + CSV Blast)
+# 🚀 WhatsApp Blaster via Gowa API (CSV Blast)
 
 Script ini digunakan untuk melakukan **blast pesan WhatsApp otomatis** ke banyak nomor menggunakan **Gowa API**, dengan metode pengambilan data nomor & nama dari file `kontak.csv` sudah di test dengan 5000 msg tidak terblokir, gokil!
 
@@ -13,8 +13,9 @@ Script ini digunakan untuk melakukan **blast pesan WhatsApp otomatis** ke banyak
 
 ---
 ## 📦 Easy to Use
-- ✅ pip install requests pandas python-dotenv
-- ✅ python script.py
+- Pastikan kamu sudah install GOWA di localhost / VPS (https://github.com/aldinokemal/go-whatsapp-web-multidevice)
+- pip install requests pandas python-dotenv
+- python script.py
  
 ## 📦 Struktur File
 

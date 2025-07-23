@@ -9,7 +9,7 @@ Script ini digunakan untuk melakukan **blast pesan WhatsApp otomatis** ke banyak
 - ✅ Kirim pesan ke ribuan nomor WA secara bertahap
 - ✅ Pesan bisa dikustomisasi nama (personalized)
 - ✅ Baca nomor dan nama dari file `.csv`
-- ✅ Gunakan API Gowa (by Kemal)
+- ✅ Gunakan API Gowa (by @aldinokemal)
 
 ---
 ## 📦 Easy to Use
